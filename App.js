@@ -28,7 +28,7 @@ async function carregaCep(){
 			  onChangeText={(data)=>setInputCep(data)}
 			  style={styles.input} 
 			  placeholder="Ex.: 12740000"
-			   placeholderTextColor = "#fff"
+			   placeholderTextColor = "#FCFFE7"
 			  />
 			 
 			  <TouchableOpacity 
@@ -51,7 +51,7 @@ async function carregaCep(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#947EC3',
+    backgroundColor: '#CE9461',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 	width: '80%',
-	backgroundColor: '#B689C0',
+	backgroundColor: '#DEA057',
     borderRadius: 10,
 	},
 	
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 },
 	
 	textobloco: {
-		color: '#fff',
+		color: '#DFD3C3',
 		fontSize: 20,
 		padding: 20,
 	},
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
 	},
 	
 	textobotao:{
-		color: '#fff',
+		color: '#8E3200',
 		fontSize: 20,
 		
 	},
